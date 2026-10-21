@@ -44,7 +44,5 @@ python create_base_model.py
 - Model is trained on YOUR behaviour
 - Any significant deviation triggers: silent selfie → location snap → FCM alert → lockdown
 
-## Notes
-- `shadowself_trainable.tflite` is in `.gitignore` (too large for git)
-- `google-services.json` is in `.gitignore` (contains secrets)
+## Note
 - All sensor data stays on-device — nothing is sent to any server
